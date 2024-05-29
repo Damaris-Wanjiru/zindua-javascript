@@ -1,22 +1,16 @@
-// fuction to find the area of a rectangle
-function findArea(width, height) {
-    return width * height;
-}
+//  let a = 4;
+//  a ++;
+//  console.log(a);
+// let a = 5;
+// a --;
+// console.log(a);
+// let a = 10 % 3;
+// console.log(a);
+let length = 10;
+let width = 5;
 
-// find the perimeter of a rectangle
-function findPerimeter(width, height) {
-    return 2 * (width + height)
+let area = length * width;
+let perimeter = 2 (length + width);
 
-}
-
-// input for width and heigh
-let width = 10
-let height = 8
-
-// calculate the area and perimeter
-let area = findArea(width, height)
-let perimeter = findPerimeter(width, height)
-
-// output the results
-console.log("Area of rectangle:" + area);
-console.log("perimeter of rectangle:" + perimeter);
+console.log("area of a rectangle: " + area);
+console.log("perimeter of a rectangle: " + perimeter);

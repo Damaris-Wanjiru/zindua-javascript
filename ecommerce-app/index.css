@@ -1,0 +1,111 @@
+.container {
+    width: 900px;
+    max-width: 90vw;
+    margin: auto;
+    text-align: center;
+    padding-top: 10px;
+
+}
+svg {
+    width: 30px;
+}
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 0;
+}
+header .icon-cart {
+    position: relative;
+}
+header .icon-cart span {
+    width: 30px;
+    display: flex;
+    height: 30px;
+    background-color: red;
+    justify-content: center;
+    align-items: center;
+    color: aliceblue;
+    border-radius: 50px;
+    position: absolute;
+    top: 50%;
+    right: 20px;
+}
+.listproduct .item img {
+    width: 90%;
+    filter: drop-shadow(0 50px 20px black);
+}
+.listproduct.item {
+    background-color: white;
+    padding: 20px;
+    border-radius: 20px;
+}
+.listproduct .item h2 {
+    font-weight: 500px;
+    font-size: large;
+}
+.listproduct item .price {
+    letter-spacing: 5px;
+    font-size: small;
+}
+.listproduct .item button {
+    background-color: #353432;
+    color: aliceblue;
+    padding: 5px 10px;
+    border-radius: 20px;
+    margin-top: 10px;
+    border: none;
+    cursor: pointer;
+}
+.cartTab {
+    width: 400px;
+    background-color: #353432;
+    color: aliceblue;
+    position: fixed;
+    inset: 0 0 0 auto;
+    display: grid;
+    grid-template-rows: 70px 1fr 70px;
+}
+.cartTab h1 {
+    padding: 20px;
+    margin: 0;
+    font-weight: 300;
+}
+.cartTab .btn {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.cartTab .btn button {
+    background-color: yellow;
+    border: none;
+    font-family: poppins;
+    font-weight: 500;
+    cursor: pointer;
+}
+.cartTab .btn .close {
+    background-color: white;
+}
+.cardTab .btn .item img {
+    width: 100%;
+}
+.cardTab .listcart .item {
+    display: grid;
+    grid-template-columns: 70px 150px 50px 1fr;
+    gap: 10px;
+    text-align: center;
+    align-items: center;
+}
+.listcart .quantity span {
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    background-color: aliceblue;
+    color: #555;
+    border-radius: 50px;
+    cursor: pointer;
+}
+.listcart .quantity .span:nth-child(2) {
+    background-color: transparent;
+    color: aliceblue;
+}
+
